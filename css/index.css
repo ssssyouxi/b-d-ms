@@ -1,14 +1,5 @@
-body * {
-  font-family: "Microsoft Yahei",Helvetica,Arial,sans-serif;
-}
-
-.container {
-  padding: 0 15px;
-}
-
-.line-big {
-  margin-left: -15px;
-  margin-right: -15px;
+body {
+  font-size: 14px;
 }
 
 h5 {
@@ -34,8 +25,7 @@ h5 {
 }
 
 .sec1 p {
-  line-height: 29px;
-  text-indent: 1em;
+  line-height: 29px !important;
   font-size: 16px;
 }
 
@@ -59,7 +49,7 @@ h5 {
 }
 
 .sec2 p.pro_intro {
-  line-height: 29px;
+  line-height: 29px !important;
   font-size: 16px;
 }
 
@@ -67,7 +57,7 @@ h5 {
   background-color: #ffd52f;
   height: 29px;
   text-align: center;
-  line-height: 29px;
+  line-height: 29px !important;
   margin-bottom: 15px;
   font-weight: 600;
   transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1) 0s;
@@ -190,7 +180,7 @@ h5 {
   background-color: #161f55;
   color: #fff;
   height: 39px;
-  line-height: 39px;
+  line-height: 39px !important;
   font-weight: 600;
   margin-top: 10px;
   margin-bottom: 6px;
@@ -266,14 +256,14 @@ h5 {
 @media (max-width: 449px) {
   .sec5 ul li .xl6 {
     width: 100% !important;
-    line-height: 24px;
+    line-height: 24px !important;
   }
   .sec5 ul li .xl6.mh {
     margin-bottom: 0;
   }
   .sec5 ul li .case-title {
     height: auto !important;
-    line-height: 24px;
+    line-height: 24px !important;
     padding: 5px;
   }
 }
