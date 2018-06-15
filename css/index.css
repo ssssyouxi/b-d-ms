@@ -120,6 +120,12 @@ h5 {
   padding-bottom: 20px;
 }
 
+.sec4 .sol-more {
+  font-size: 16px;
+  padding-top: 5px;
+  color: red;
+}
+
 .sec4 ul li .triangle {
   width: 0;
   height: 0;
